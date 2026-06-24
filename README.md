@@ -214,7 +214,9 @@ Kiet Tran
 Want to create your own application? Check out these useful resources:
 
 [But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA "youtube") - 3Blue1Brown - The beautiful of math through convolution.
+
 Edge handling - [Extend](<https://en.wikipedia.org/wiki/Kernel_(image_processing)#:~:text=handling%20image%20edges.-,Extend,extended%20in%2090%C2%B0%20wedges.%20Other%20edge%20pixels%20are%20extended%20in%20lines.,-Wrap> "wikipedia") - During convolution process, you need to pick your strategy for handling image edges.
+
 [Seam Carving | Week 2, lecture 7 | 18.S191 MIT Fall 2020](https://www.youtube.com/watch?v=rpB6zQNsbQU "youtube") - A detail explanation with visual examples on seam carving
 
 # References
