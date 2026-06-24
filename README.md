@@ -30,7 +30,7 @@ The below example describes the process of seam carving to shrink 30% of the ori
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | 0. Start with Broadway tower image.                                                           | <img src="./InputImages/BroadwayTower.jpg" height="170">                   |
 | 1. Convert from colored image to grayscale image.                                             | <img src="./resources/process/Grayscale_BroadwayTower.jpg" height="170">   |
-| 2. Calculate the energy of each pixel or create an <br>edge map using edge detection kernels. | <img src="./resources/process/Edgemap_BroadwayTower.jpg" height="170">     |
+| 2. Calculate the energy of each pixel or create an edge map <br>using edge detection kernels. | <img src="./resources/process/Edgemap_BroadwayTower.jpg" height="170">     |
 | 3. Find the lowest energy seam.                                                               |                                                                            |
 | 4. Remove seam and recalculate edge/energy map.                                               |                                                                            |
 | 5. Repeat steps 3 and 4 until reaching desired width.                                         |                                                                            |
@@ -43,10 +43,10 @@ The below example describes the process of seam carving of 150%-width expansion 
 | Step                                                                                                                   | Image                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | 0. Start with Broadway tower image.                                                                                    | <img src="./InputImages/BroadwayTower.jpg" height="170">                                 |
-| 1. Perform seam carving technique <br>above to mark all the seam, same as <br>shrinking 50% width.                     | <img src="./resources/process/MarkedSeams_Expansion_BroadwayTower.jpg" height="170">     |
+| 1. Perform seam carving technique <br>above to mark all the seam, same <br>as shrinking 50% width.                     | <img src="./resources/process/MarkedSeams_Expansion_BroadwayTower.jpg" height="170">     |
 | 2. Add low-energy seams by <br>duplicating marked pixels.                                                              | <img src="./resources/process/Extended_BroadwayTower.jpg" height="170">                  |
 | Expand to 200% width in one go will <br>add both low and high-energy seams, <br>stretching the objects and background. |                                                                                          |
-| 3. Instead, perform a second expansion <br>on the 150%-width image to find lowest <br>seams.                           | <img src="./resources/process/MarkedSeams_BroadwayTower_2ndExtension_.jpg" height="170"> |
+| 3. Instead, perform a second expansion <br>on the 150%-width image to find lowest seams.                               | <img src="./resources/process/MarkedSeams_BroadwayTower_2ndExtension_.jpg" height="170"> |
 | Final image.                                                                                                           | <img src="./resources/process/Extended_BroadwayTower_2ndExtension_.jpg" height="170">    |
 
 ## Other examples
