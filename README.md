@@ -130,18 +130,18 @@ The below example describes the process of seam carving of 150%-width expansion 
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
-      <img src="./InputImages/SilhouetteOfTrees_DaveHoefler.jpg" height="700"> <br> 
+      <img src="./InputImages/SilhouetteOfTrees_DaveHoefler.jpg" height="600"> <br> 
       <p>Original image</p>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="./resources/examples/Carved_Sunset_DaveHoefler.jpg" height="700"><br>
+      <img src="./resources/examples/Carved_Sunset_DaveHoefler.jpg" height="600"><br>
       <p>70% width</p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-    <img src="./resources/examples/Expanded_Sunset_DaveHoefler_2ndExtension_.jpg" height="700"> <br> 
+    <img src="./resources/examples/Expanded_Sunset_DaveHoefler_2ndExtension_.jpg" height="600"> <br> 
     200% width
 </p>
 
@@ -213,9 +213,9 @@ Kiet Tran
 
 Want to create your own application? Check out these useful resources:
 
-[But what is a convolution?]("https://www.youtube.com/watch?v=KuXjwB4LzSA" "youtube") - 3Blue1Brown - The beautiful of math through convolution.
-Edge handling - [Extend](<"https://en.wikipedia.org/wiki/Kernel_(image_processing)#:~:text=handling%20image%20edges.-,Extend,extended%20in%2090%C2%B0%20wedges.%20Other%20edge%20pixels%20are%20extended%20in%20lines.,-Wrap"> "wikipedia") - During convolution process, you need to pick your strategy for handling image edges.
-[Seam Carving | Week 2, lecture 7 | 18.S191 MIT Fall 2020]("https://www.youtube.com/watch?v=rpB6zQNsbQU" "youtube") - A detail explanation with visual examples on seam carving
+[But what is a convolution?](https://www.youtube.com/watch?v=KuXjwB4LzSA "youtube") - 3Blue1Brown - The beautiful of math through convolution.
+Edge handling - [Extend](<https://en.wikipedia.org/wiki/Kernel_(image_processing)#:~:text=handling%20image%20edges.-,Extend,extended%20in%2090%C2%B0%20wedges.%20Other%20edge%20pixels%20are%20extended%20in%20lines.,-Wrap> "wikipedia") - During convolution process, you need to pick your strategy for handling image edges.
+[Seam Carving | Week 2, lecture 7 | 18.S191 MIT Fall 2020](https://www.youtube.com/watch?v=rpB6zQNsbQU "youtube") - A detail explanation with visual examples on seam carving
 
 # References
 
